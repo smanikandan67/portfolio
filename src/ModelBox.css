@@ -1,0 +1,94 @@
+/* .model{
+    text-align: center;
+    padding: 10%;
+    border: 5px solid greenyellow;
+    margin: 100px;
+    border-radius: 20px;
+    background-color: #ab9393;
+    
+}
+button{    
+    color: #ab9393;
+    background-color: aqua;
+    border-radius: 20px;
+    width: 90px;
+    background: linear-gradient(90deg, blue,pink)
+
+    
+}
+.x{
+    border: none;
+    background-color: wheat;
+    color: black;
+    position: absolute;
+    width: 3%;
+    margin-left: 35%;
+    margin-top: 3%;
+    font-size: 20px;
+}
+.overlay{
+    min-height: 100vh;
+    width: 100%;
+    background: rgb(35, 34, 34);
+}
+.popup{
+    background-color: aliceblue;
+    width:40%;
+    height: 30%;
+    margin: 20%;
+    margin-left: 30%;
+}
+.img{
+    margin: 20;
+} */
+
+.full{
+    border: none;
+    text-align: center;
+    background-color: rgb(222, 237, 245);
+    position: absolute;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 1%;
+    font-size: 20px;
+    border-radius: 20px;
+    height: 600px;   
+}
+.x{
+    border: none;
+    color: black;
+    position: absolute;
+    margin-left: 40%;
+    border-radius: 20px;
+    margin-top: 3%;
+    font-size: 20px;
+    background-color: rgb(197, 232, 236 );
+}
+.pp{
+    background-color: rgb(97, 134, 246);
+    border-radius: 20px;
+    width: 67%;
+    height: 10%;
+    margin-top: 10%;
+    color: rgb(248, 238, 248);
+    font-style: bold;
+     text-align: center;
+
+}
+.text{
+ text-align: center;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10%;
+    color: rgb(32, 29, 32);
+}
+.text1{
+    margin-top: 5%;
+    font-size: 20px;
+    color: rgb(22, 21, 22);
+    text-align: center;
+}
+body{
+    background-color: #000000c9;
+}

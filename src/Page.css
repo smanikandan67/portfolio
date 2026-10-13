@@ -1,0 +1,171 @@
+/* .forget{
+    font-size: 12px;
+    color: black;
+
+}
+
+.forget:hover {
+    color: rgb(169, 26, 240);
+    font-size: 14px;
+}
+button{
+   color: rgb(227, 234, 43);
+   width: 15%;
+   border: none;
+   background-color: palevioletred;
+   border-radius: 30px;
+   cursor: grab;
+}
+button:hover{
+    font-size: 100%;
+    color: aqua;
+    background-color: black;
+}
+.new{
+    font-size: 13px;
+}
+.new:hover{
+font-size: 14px;
+color: brown
+}
+body{
+    background-color: aqua;
+    background: url('./WhatsApp\ Image\ 2026-02-25\ at\ 12.27.25\ PM.jpeg');
+}
+.full{
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+input{
+    height: 15px;
+    width: 25vh;
+    border-radius: 7px;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.card {
+  width: 350px;
+  height: 500px;
+  display: flex;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.left {
+  width: 100%;
+  padding: 40px;
+  color: white;
+}
+
+.left h2 {
+  margin-bottom: 10px;
+}
+
+.left p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background: #00c6ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: #0072ff;
+}
+
+.social {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.icons button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.google {
+  background: rgb(228, 125, 65);
+  color: white;
+  font-size: large;
+}
+.google:hover {
+  background: rgb(255, 69, 0);
+}
+
+.facebook {
+  background: rgb(105, 134, 238);
+  color: white;
+  font-size: large;
+  
+}
+.facebook:hover {
+  background: rgb(65, 105, 238);
+}
+
+.register {
+  margin-top: 20px;
+  font-size: 13px;
+  ;
+}
+
+.register span {
+  color: #37b3d6;
+  cursor: pointer;
+}
+.right {
+  width: 50%;
+  background: url('./WhatsApp\ Image\ 2026-02-25\ at\ 12.27.25\ PM.jpeg') no-repeat center;
+  background-size: cover;
+}
+.forget {
+  font-size: 12px;
+  color: white;
+  text-align: right;
+  display: flex;
+    justify-content: flex-end;
+    
+    
+}
+

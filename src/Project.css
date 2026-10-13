@@ -1,0 +1,27 @@
+input{
+    width: 50%;
+    margin: 4%;
+    padding: 1%;
+    border-radius: 20px;
+    
+    
+}
+form{
+   width: 50%;
+    
+    border-radius: 20px;
+    background-color: pink;
+    
+}
+button{
+    background-color: rgb(112, 152, 255);
+    border-radius: 20%;
+    border: none;
+    font-size: 20px;
+    
+    
+}
+body{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}

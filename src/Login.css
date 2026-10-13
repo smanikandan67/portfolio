@@ -1,0 +1,48 @@
+.forget{
+    font-size: 12px;
+    color: black;
+
+}
+
+.forget:hover {
+    color: rgb(169, 26, 240);
+    font-size: 14px;
+}
+button{
+   color: rgb(227, 234, 43);
+   width: 15%;
+   border: none;
+   background-color: palevioletred;
+   border-radius: 30px;
+   cursor: grab;
+}
+button:hover{
+    font-size: 100%;
+    color: aqua;
+    background-color: black;
+}
+.new{
+    font-size: 13px;
+}
+.new:hover{
+font-size: 14px;
+color: brown
+}
+body{
+    background-color: aqua;
+    background: url('./WhatsApp\ Image\ 2026-02-25\ at\ 12.27.25\ PM.jpeg');
+}
+.full{
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+input{
+    height: 15px;
+    width: 25vh;
+    border-radius: 7px;
+}

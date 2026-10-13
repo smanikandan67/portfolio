@@ -1,0 +1,7 @@
+.h1{
+    width: 100%;
+    background-color: rgb(160, 229, 229);
+    padding: 10px;
+    font-size: 12px rgb(56, 56, 177);
+    cursor: pointer;
+}

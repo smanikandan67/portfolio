@@ -1,0 +1,35 @@
+.dashboard {
+  width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #a6a6d7;
+  color: white;
+  text-align: center;
+  font-family: Arial;
+}
+
+.status-bar {
+  margin: 15px 0;
+}
+
+.controls input {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 90%;
+  border-radius: 5px;
+  border: none;
+}
+
+.controls button {
+  padding: 10px 15px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: darkred;
+}

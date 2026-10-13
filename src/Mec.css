@@ -1,0 +1,65 @@
+.loginstyle{
+   background-image: url('./assets/mec.png') ;
+   background-size:cover;
+    background-position:center;
+    width:100%;
+    height: 850px; 
+}
+.formContainer{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    column-gap:30px;
+    row-gap:35px;
+    width:90%;
+    max-width:1000px;
+    margin:20px auto;
+}
+.leftrighthead{
+    display: flex;
+    justify-content:center ;
+    margin: px;
+}
+.lefthead{
+    padding-top: px;
+    
+}
+.righthead{
+    background-color: rgb(252, 251, 251);
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 50px;
+    margin-top: 40px;
+    padding-top: 1px;
+
+}
+.formGroup{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+.lablename{
+    font-size:14px;
+    font-weight:500;
+}
+.formGroup input,
+.formGroup select{
+    /* width:50px;
+    height:20px; */
+    border:1px solid #000408;
+    border-radius:0;
+    box-sizing:border-box;
+    background:rgb(250, 249, 249);
+    font-size:14px;
+}
+.changefont{
+    font-size: 25px;
+    text-align: center;
+    margin-left: 36px;
+}
+.lefthead{
+    margin-top: 100px;
+    /* margin-left: 300px; */
+    padding-left: 400px;
+    padding-right: 100px;
+
+}
